@@ -4,7 +4,7 @@ async function main() {
   console.log("Starting TrustSync deployment...");
   console.log("==========================================\n");
 
-  // Get the deployer's account
+  // Get the deployer's account.
   const [deployer] = await hre.ethers.getSigners();
   console.log("Deploying contracts with account:", deployer.address);
   
@@ -84,4 +84,5 @@ main()
     console.error("==========================================\n");
     console.error(error);
     process.exit(1);
+
   });
