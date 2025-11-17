@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /**
  * @title TrustSync
- * @dev A decentralized trust and reputation system for collaborative agreements.
+ * @dev A decentralized trust and reputation system for collaborative agreements
  */
 contract Project {
     
@@ -178,3 +178,4 @@ contract Project {
     }
 
 }
+
