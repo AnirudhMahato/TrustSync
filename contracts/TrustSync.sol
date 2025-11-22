@@ -132,7 +132,7 @@ contract Project {
     
     /**
      * @dev Dispute an agreement (reduces reputation for the disputing party)
-     * @param _agreementId ID of the agreement to dispute
+     * @param _agreementId: ID of the agreement to dispute
      */
     function disputeAgreement(uint256 _agreementId) 
         external 
@@ -178,6 +178,7 @@ contract Project {
     }
 
 }
+
 
 
 
